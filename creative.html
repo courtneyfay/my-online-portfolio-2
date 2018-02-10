@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Courtney Fay</title>
+    <link rel="shortcut icon" href="img/creative/teal_helmet_mouse.png">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -39,8 +39,8 @@
     <link href="css/vitality-turquoise.css" rel="stylesheet" type="text/css">
     <!-- <link href="css/vitality-yellow.css" rel="stylesheet" type="text/css"> -->
 
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="img/creative/teal_helmet_mouse.png">
+    <!-- Devicons for Skills section -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   </head>
 
   <body id="page-top">
@@ -113,8 +113,9 @@
         <div class="row">
           <div class="container text-center wow fadeIn">
             <h1>Hi, I'm Courtney Fay</h1>
+            <p class="mb-0">I'm a front-end web developer who also:</p>
             <hr class="colored">
-            <h3>I'm a front-end web developer who also:</h3>
+           <!--  <h3>I'm a front-end web developer who also:</h3> -->
           </div>
           <!-- <div class="col-lg-6">
             <img class="img-fluid rounded my-5" src="img/creative/ms_headshot.jpg" alt="">
@@ -161,16 +162,16 @@
     </section>
 
     <!-- Portfolio Carousel Heading -->
-    <section class="page-section bg-light" id="work">
+    <!-- <section class="page-section bg-light" id="work">
       <div class="container text-center wow fadeIn">
         <h2>Portfolio</h2>
         <hr class="colored">
         <p>Here are some examples of my work.</p>
       </div>
-    </section>
+    </section> -->
 
     <!-- Portfolio Carousel -->
-    <div class="portfolio-carousel wow fadeIn owl-carousel owl-theme">
+    <div class="portfolio-carousel wow fadeIn owl-carousel owl-theme" id="work">
 
       <!-- Portfolio Carousel Item 1 -->
       <div class="item" style="background-image: url('img/agency/portfolio/carousel/bg-1.jpg')">
@@ -438,37 +439,81 @@
     <section class="page-section bg-light" id="services">
       <div class="container-fluid">
         <div class="wow fadeIn text-center">
-          <h1>This is what I do</h1>
-          <p class="mb-0">Vitality is the perfect theme for a freelance professional or an agency.</p>
+          <h1>Skills</h1>
         </div>
         <hr class="colored">
+        <!-- First row of skills -->
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-6">
+            <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".2s">
+              <i class="devicon-javascript-plain fa-4x"></i>
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".4s">
+              <i class="devicon-react-plain fa-4x"></i>
+              <h3>React</h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".6s">
+              <i class="devicon-angularjs-plain fa-4x"></i>
+              <h3>Angular</h3>
+            </div>
+          </div>
+        </div>
+        <!-- Second row of skills -->
         <div class="row text-center">
           <div class="col-lg-3 col-md-6">
             <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".2s">
-              <i class="fa fa-code fa-4x"></i>
-              <h3>Bootstrap 4</h3>
-              <p class="mb-0">Unleash the power and flexibility of the newly released Bootstrap 4 when you choose Vitality! One framework, every device.</p>
+              <i class="devicon-html5-plain fa-4x"></i>
+              <h3>HTML</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".4s">
-              <i class="fa fa-edit fa-4x"></i>
-              <h3>Easy to Edit</h3>
-              <p class="mb-0">Vitality is easy to edit and customize and includes SASS and LESS versions for deeper customization.</p>
+              <i class="devicon-css3-plain fa-4x"></i>
+              <h3>CSS</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".6s">
-              <i class="fa fa-tablet fa-4x"></i>
-              <h3>Responsive</h3>
-              <p class="mb-0">In today's world where devices come in every shape and size, Vitality will responsively adapt to look great on any screen!</p>
+              <i class="devicon-postgresql-plain fa-4x"></i>
+              <h3>PostgreSQL</h3>
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="wow fadeIn px-4 h-100" data-wow-delay=".8s">
-              <i class="fa fa-heart fa-4x"></i>
-              <h3>Built with Love</h3>
-              <p class="mb-0">All themes by Start Bootstrap are crafted with care. Thank you for choosing Vitality and being a customer!</p>
+              <i class="devicon-nodejs-plain fa-4x"></i>
+              <h3>Node</h3>
+            </div>
+          </div>
+        </div>
+        <!-- Third row of skills -->
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6">
+            <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".2s">
+              <i class="devicon-express-original fa-4x"></i>
+              <h3>Express</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".4s">
+              <i class="devicon-sequelize-plain fa-4x"></i>
+              <h3>Sequelize</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="wow fadeIn px-4 pb-4 pb-lg-0 h-100" data-wow-delay=".6s">
+              <i class="devicon-github-plain fa-4x"></i>
+              <h3>Github</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="wow fadeIn px-4 h-100" data-wow-delay=".8s">
+              <i class="devicon-heroku-plain fa-4x"></i>
+              <h3>Heroku</h3>
             </div>
           </div>
         </div>
