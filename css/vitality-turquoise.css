@@ -51,7 +51,7 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 a {
-  color: #009378;
+  color: white;/*#009378;*/
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s; }
