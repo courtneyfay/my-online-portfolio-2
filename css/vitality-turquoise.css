@@ -34,7 +34,7 @@ hr.align-right {
     max-width: 150px; } }
 
 section.page-section {
-  padding: 125px 0; }
+  padding: 100px 0; }
 
 @media (max-width: 767px) {
   section.page-section {
@@ -96,14 +96,14 @@ h6 {
     font-size: 50px; } }
 
 #mainNav {
-  /*#222 - old navbar background color*/
-  background-color: #333; } 
+  /*#222 #333 - old navbar background colors*/
+  background-color: #009378; } 
   #mainNav .navbar-toggler {
     padding: 15px;
     color: white;
     font-size: 14px; }
     #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
-      color: #333;
+      color: #009378;
       background-color: white; }
   #mainNav .navbar-brand {
     color: white;
@@ -132,7 +132,7 @@ h6 {
       background-color: transparent; }
       #mainNav.navbar-shrink {
         padding: 5px 0;
-        background-color: #333; }
+        background-color: #009378; }
       #mainNav .navbar-brand {
         font-size: 35px;
         line-height: 50px; }
@@ -651,10 +651,10 @@ form .row:first-child .floating-label-form-group {
 footer.footer {
   padding: 50px 0 20px;
   color: rgba(255, 255, 255, 0.7);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
   background-attachment: scroll; }
   @media (min-width: 1024px) {
     footer.footer {
