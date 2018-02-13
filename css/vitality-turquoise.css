@@ -24,6 +24,11 @@ hr.align-right {
   margin-right: 0;
 }
 
+.turquoise {
+  color: #009378;
+  margin-left: -0.5rem;
+}
+
 @media (min-width: 992px) {
   hr {
     max-width: 150px; } }
@@ -331,6 +336,9 @@ header.video {
   padding: 0;
   color: white;
   background-color: #222; }
+  .portfolio-carousel span.color {
+    color: orange;
+  }
   .portfolio-carousel .item {
     padding: 75px 30px;
     text-align: center;
@@ -357,6 +365,8 @@ header.video {
     .portfolio-carousel .item {
       padding: 155px 30px;
       text-align: left; }
+      .portfolio-carousel img {
+        padding: 0.75rem 0; }
       .portfolio-carousel .item .project-details img.client-logo {
         margin: 0 auto 25px 0; }
       .portfolio-carousel .item .project-details .project-name {
