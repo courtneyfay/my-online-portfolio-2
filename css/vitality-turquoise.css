@@ -4,7 +4,7 @@
  * Purchase a license to use this theme at (https://wrapbootstrap.com)
  */
 
-/*009378*/
+/*#009378 - new turquoise color*/ 
 
 html,
 body {
@@ -19,12 +19,17 @@ hr {
 hr.colored {
   border-color: #009378; }
 
+hr.align-right {
+  text-align: right;
+  margin-right: 0;
+}
+
 @media (min-width: 992px) {
   hr {
     max-width: 150px; } }
 
 section.page-section {
-  padding: 100px 0; }
+  padding: 125px 0; }
 
 @media (max-width: 767px) {
   section.page-section {
@@ -86,13 +91,14 @@ h6 {
     font-size: 50px; } }
 
 #mainNav {
-  background-color: #222; }
+  /*#222 - old navbar background color*/
+  background-color: #333; } 
   #mainNav .navbar-toggler {
     padding: 15px;
     color: white;
     font-size: 14px; }
     #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
-      color: #222;
+      color: #333;
       background-color: white; }
   #mainNav .navbar-brand {
     color: white;
@@ -121,12 +127,12 @@ h6 {
       background-color: transparent; }
       #mainNav.navbar-shrink {
         padding: 5px 0;
-        background-color: #222; }
+        background-color: #333; }
       #mainNav .navbar-brand {
-        font-size: 26px;
+        font-size: 35px;
         line-height: 50px; }
         #mainNav .navbar-brand img {
-          height: 46px; }
+          height: 35px; }
       #mainNav .navbar-collapse .navbar-nav > .nav-item {
         margin-right: 5px; }
         #mainNav .navbar-collapse .navbar-nav > .nav-item:last-child {
@@ -653,7 +659,7 @@ footer.footer {
   footer.footer p {
     font-size: 22px; }
   footer.footer .footer-contact-details {
-    margin: 75px 0; }
+    margin: 25px 0; }
   footer.footer .footer-social {
     margin-bottom: 75px; }
   footer.footer .copyright {
